@@ -1,5 +1,5 @@
 <template>
-  <div>About</div>
+  <div>About with lowercase</div>
 </template>
 
 <script setup></script>

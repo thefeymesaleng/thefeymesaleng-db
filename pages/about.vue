@@ -3,9 +3,7 @@
 </template>
 
 <script setup>
-// console.log("about page", process.env.NODE_ENV);
-
-console.log(import.meta.env);
+console.log("about page", process.env.NODE_ENV == "development");
 </script>
 
 <style scoped></style>

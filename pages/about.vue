@@ -4,9 +4,11 @@
 
 <script setup>
 console.log("about page");
-if (process) {
-  console.log("process exist");
-} else {
+try {
+  if (process) {
+    console.log("process exist, so this is dev");
+  }
+} catch (error) {
   console.log("this might be production");
 }
 </script>
